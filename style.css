@@ -1,0 +1,53 @@
+:root {
+    --color-dark-background: #1f2937;
+    --color-main-text: #f9faf8;
+    --color-secondary-text: #e5e7eb;
+    --color-button: #3882f6;
+    --color-quote-background: #e5e7eb;
+    --color-quote-text: #1f2937;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Header */
+
+header {
+    background-color: var(--color-dark-background);
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+}
+
+header ul {
+    width: 960px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+header .logo {
+    color: var(--color-main-text);
+}
+
+header a {
+    display: block;
+    text-decoration: none;
+    color: var(--color-secondary-text);
+    padding: 8px 16px;
+}
+
+.push-right {
+    margin-left: auto;
+}

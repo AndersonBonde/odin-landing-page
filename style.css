@@ -51,6 +51,10 @@ header a {
     font-size: 18px;
 }
 
+header a:hover {
+    color: var(--color-button);
+}
+
 .push-right {
     margin-left: auto;
 }
@@ -181,4 +185,13 @@ button:hover {
 .call-to-action button {
     flex: 0 0 120px;
     border: 2px solid white;
+}
+
+/* Footer */
+
+footer {
+    background-color: var(--color-dark-background);
+    padding: 2rem 0;
+    color: var(--color-secondary-text);
+    text-align: center;
 }
